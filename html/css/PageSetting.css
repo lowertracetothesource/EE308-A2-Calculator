@@ -1,0 +1,86 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#calculator {
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px; /* 添加圆角 */
+    padding: 20px; /* 增加内边距 */
+}
+
+#head {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px; /* 添加圆角 */
+}
+
+#head h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#show input {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    border: 2px solid black;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 10px; /* 添加圆角边框 */
+}
+
+#custom {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 15px; /* 上方间隔 */
+    margin-bottom: 15px; /* 下方间隔 */
+}
+
+table td {
+    width: 25%;
+    margin: 10px; /* 左右间隔 */
+}
+
+table input {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+    transition: transform 0.2s, box-shadow 0.2s; /* 添加过渡效果 */
+}
+
+
+
+/* 鼠标悬停时应用立体效果和放大效果 */
+table input:hover {
+    background: #ccc;
+    transform: scale(1.1); /* 放大效果 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), 0 0 0 2px #000; /* 增加阴影深度和黑色边框 */
+}
+
+
+  
+  
+  
+  
